@@ -15,10 +15,9 @@ steps:
   displayName: 'Run Perf Analyzer'
   inputs:
     jmxSource: 'sourceCode'
-    jmxsourceRunFilePath: 'FAD_MountSinai_test_v1.jmx'
+    jmxsourceRunFilePath: 'Mount_Sinai_OurLocations.jmx'
     jmxPropertySource: 'none'
-    jmxInputFilesSource: 'sourceCode'
-    jmxInputFolderSourcePath: 'inp'
+    jmxInputFilesSource: 'none'
     publishResultsToBuildArtifact: true
     artifactNameReport: 'PerfAnalyzerReport_$(Stage.StageDisplayName)'
     artifactNameLog: 'PerfAnalyzerLogs_$(Stage.StageDisplayName)'
